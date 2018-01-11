@@ -16,6 +16,9 @@ jobs:
           paths:
             - node_modules
           key: 'v1-dependencies-{{ checksum "package.json" }}'
-      - run: null
+      - run: 
         name: Testing application
         command: 'npm run ci:test'
+      - run: 
+        name: Code coverage
+        command: 'npm run ci:report'
