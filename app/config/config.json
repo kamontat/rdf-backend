@@ -22,9 +22,9 @@
     "logging": false
   },
   "citest": {
-    "username": "POSTGRES_USER",
+    "username": "root",
     "password": null,
-    "database": "POSTGRES_DB",
+    "database": "circle_test",
     "host": "127.0.0.1",
     "port": 5432,
     "dialect": "postgres",
