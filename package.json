@@ -14,7 +14,7 @@
     "test:watch": "NODE_ENV=test npm test -- --watch",
     "cov": "nyc npm test",
     "cov:check": "nyc check-coverage --lines 70 --functions 70 --statements 70 --branches 70",
-    "ci:test": "NODE_ENV=citest npm run test:mocha",
+    "ci:test": "NODE_ENV=citest nyc npm run test:mocha",
     "ci:report": "NODE_ENV=citest nyc report --reporter=text-lcov"
   },
   "repository": {

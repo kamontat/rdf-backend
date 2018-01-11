@@ -20,8 +20,5 @@ jobs:
           name: Testing application
           command: 'npm run ci:test'
       - run:
-          name: Code coverage
-          command: 'npm run cov'
-      - run:
           name: Create report
           command: 'npm run ci:report'
