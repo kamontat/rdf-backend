@@ -15,7 +15,7 @@
     "cov": "nyc npm test",
     "cov:check": "nyc check-coverage --lines 70 --functions 70 --statements 70 --branches 70",
     "ci:test": "NODE_ENV=citest nyc npm run test:mocha -- --reporter mocha-junit-reporter",
-    "ci:report": "NODE_ENV=citest nyc report --reporter=text-lcov"
+    "ci:report": "NODE_ENV=citest nyc report --reporter=lcov > coverage.lcov && codecov"
   },
   "repository": {
     "type": "git",

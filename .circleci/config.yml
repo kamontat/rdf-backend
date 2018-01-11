@@ -17,6 +17,9 @@ jobs:
             - node_modules
           key: 'v1-dependencies-{{ checksum "package.json" }}'
       - run:
+          name: Install library
+          command: command -v codecov || npm install -g codecov
+      - run:
           name: Testing application
           command: 'npm run ci:test'
           environment:
