@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.077" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2018-01-11T08:54:38" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Foods" timestamp="2018-01-11T08:54:38" tests="0" file="/Users/kamontat/Desktop/rdf-backend/tests/food.spec.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="/GET food" timestamp="2018-01-11T08:54:38" tests="1" file="/Users/kamontat/Desktop/rdf-backend/tests/food.spec.js" failures="0" time="0.027">
+    <testcase name="Foods /GET food it should GET all the foods" time="0.027" classname="it should GET all the foods">
+    </testcase>
+  </testsuite>
+  <testsuite name="/POST food" timestamp="2018-01-11T08:54:38" tests="3" file="/Users/kamontat/Desktop/rdf-backend/tests/food.spec.js" failures="0" time="0.05">
+    <testcase name="Foods /POST food create food (correctly)" time="0.038" classname="create food (correctly)">
+    </testcase>
+    <testcase name="Foods /POST food create food (duplicate name)" time="0.009" classname="create food (duplicate name)">
+    </testcase>
+    <testcase name="Foods /POST food create food (wrong format)" time="0.003" classname="create food (wrong format)">
+    </testcase>
+  </testsuite>
+</testsuites>
